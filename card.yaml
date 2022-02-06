@@ -1,0 +1,150 @@
+type: grid
+columns: 3
+square: false
+cards:
+  - type: custom:button-card
+    color_type: label-card
+    icon: mdi:power
+    name: power
+    color: var(--state-icon-color)
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        command: >-
+          b64:JgC+AA8IBQoFGQYJBQkGCQUKBQkFCgUJBRUFDwUUBQkGCQUaBQkFAAuMDwgHBwcYBwgHBwcIBwcHCAcHBwgHEgcNBxIIBwcIBxcIBwcAC4kRBQgIBxcIBwcIBwcHCAcHCAcHBwgSBw0HEgcIBwcHGAcHCAALiRAGCAcHGAcIBwcHCAcHBwgHBwgHBxIHDQcTBwcHCAcYBwcHAAuKDwcHCAcYBwcHCAcHBwgHBwcIBxIHEwYOBhMHBwcIBxgHBwcADQUAAAAAAAAAAAAA
+        entity_id: remote.broadlink_sala_remote
+  - type: custom:button-card
+    color_type: blank-card
+  - type: custom:button-card
+    color_type: blank-card
+  - type: custom:button-card
+    color_type: label-card
+    icon: mdi:volume-minus
+    color: var(--state-icon-color)
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        command: >-
+          b64:JgByAA8HBwgFGgYIBwgGCAcIBgkGCAYJBhMGDgYTBwgGDgYIBw0HAAuJDwgHCAUaBggGCQYIBgkGCAYJBQkHEwYOBhMGCQYOBggGDgYAC4oPCAYIBhkHCAYIBwgFCQcIBgkFFAYTBw0HEwYIBg4GCQYOBgANBQAAAAAAAA==
+        entity_id: remote.broadlink_sala_remote
+  - type: custom:button-card
+    color_type: label-card
+    icon: mdi:volume-off
+    color: var(--state-icon-color)
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        command: >-
+          b64:JgByAA8IBggHGAYIBwgGCQYIBgkGCAcIBhMHDQYTBwgGCAcYBw0HAAuJDwgHCAYZBggHCAYIBwgGCAcIBggHEwYOBhMGCQYIBxgGDgYAC4oPCAUJBxgFCgYIBgkFCQcIBQkHEwUUBg4FFAcIBgkFGQcNBwANBQAAAAAAAA==
+        entity_id: remote.broadlink_sala_remote
+  - type: custom:button-card
+    color_type: label-card
+    icon: mdi:volume-plus
+    color: var(--state-icon-color)
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        command: >-
+          b64:JgByAA8IBQoFGQYJBQkGCQUKBggFCgUJBRUFDgYUBQkGDgYJBQkGAAuLDggFCgUaBQkFCgUJBgkFCQYJBQoFFAUPBRQFCgUPBQkFCgUAC4sPCAUJBRoFCgUJBQoFCQUKBQkFFQUUBQ8FFAUKBQ8FCQYJBQANBQAAAAAAAA==
+        entity_id: remote.broadlink_sala_remote
+  - type: custom:button-card
+    color_type: label-card
+    icon: mdi:arrow-u-left-bottom
+    name: back
+    color: var(--state-icon-color)
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        command: >-
+          b64:JgByAA8IBQkFGgUJBgkFCgUJBQoFCQUKBRQFDwUUBhQFCQYJBhkFAAuLDwgFCQUaBQkGCQUKBQkFCgUJBQoFFAUPBRQGFAUJBgkFGgUAC4sPCAUJBRoFCQYJBQoFCQUKBQkFFQUUBQ8FFAUVBQkFCgUZBgANBQAAAAAAAA==
+        entity_id: remote.broadlink_sala_remote
+  - type: custom:button-card
+    color_type: label-card
+    icon: mdi:menu
+    name: menu
+    color: var(--state-icon-color)
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        command: >-
+          b64:JgByAA8IBQkFGgUKBQkFCgUJBQoFCQUKBRQFDwUUBg4GDgYOBgkFAAuLDwgFCQYZBQoFCQYJBQkFCgUJBwgFFAUPBRUFDwUPBQ4GCQUAC4sPCAUJBhkFCgUJBgkFCQYJBQoFFAUUBQ8FFQUPBQ4GDgYJBQANBQAAAAAAAA==
+        entity_id: remote.broadlink_sala_remote
+  - type: custom:button-card
+    color_type: label-card
+    icon: mdi:home
+    name: home
+    color: var(--state-icon-color)
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        command: >-
+          b64:JgByAA8IBggHGAcIBggHCAYIBwgGCAcIBhMHDQcSBw0HDQcNBw0HAAuJDwgHCAYZBggHCAYIBwgGCAcIBggHEwYOBhMHDQcNBw0GDgYAC4oPCAYIBhkHCAYIBgkFCQcIBQkHEwYTBg4FFAcNBw0HDQcNBgANBQAAAAAAAA==
+        entity_id: remote.broadlink_sala_remote
+  - type: custom:button-card
+    color_type: blank-card
+  - type: custom:button-card
+    color_type: label-card
+    icon: mdi:arrow-up
+    color: var(--state-icon-color)
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        command: >-
+          b64:JgCEAwQKBAsECgQLBBUHDQYUBg0HDQcTBggHAAuKDggIBwcYBwcIBggHBwgGCAcIBggHEwcNBxIHDQcNBxIIBwcAC4kPCAcHBxgIBggHCAYHCAcIBggHCAYTCAwIEgcNBwwIEgcHCAALiQ4ICAcHGAcHBwgHBwcIBggHCAcHCBIHDQcSCAwIDAgRCAYHAAuKEAYFCggXCAYIBwcIBwcFCgcHCAcIEQgMCBIHDQcNBxIIBgcAC4oPBwgGCBgIBQkGBwgIBgUKCAYFCwcSBw0IEQgMCAwIEgcHBwALiRAHBwcHGAgGCQYIBwgGBQoIBgYJCBEIDAgSBw0HDQcSCAYIAAuJDwcIBwgXCAYIBgcICAYFCwcGCAgHEggMBxIIDAgMCBIHBwgAC4gPCAcHCBcHCAcHCAcHCAYICAYIBwgSBg4HEgcNBg4GEwgGBwALig4ICAcHGAcHBwgHBwcIBwgGCAcIBxIHDQcSBw0IDAgSBggIAAuIDQoHCAYYCAcGCQcHBwgGCAcIBggHEwYOBhMGDgYOBhMHCAcAC4kNCgYIBxgGCQYIBwcFCgYJBggHCAYTBw0EFQcNBBAEFgQKBwALiQ0KBgkGGQYIBgkGCAcIBggHCAYIBxMGDgQVBBAEEAQVBAsGAAuKDQoECgQbBgkGCAYJBggGCQYIBwgGEwQQBBYEEAQQBBYECgQAC40MCgQLBBsECgQLBAoECwQKBAsECgQWBBAEFQQQBBAEFQQLBAALjA0KBAoEGwQLBAoECwQKBAsECgQLBBUEEAQWBBAEEAQWBAoEAAuNDAoECwQbBAoECwQKBAsECgQLBAoEFgQQBBUEEAQQBBUECwQAC4wNCgQKBBsECwQKBAsECgQLBAoHCAQVBBAEFgQQBBAEFQQKBAALjQwKBAsEGwQKBAsECgQLBAoECwQLBBYEEAQVBBAEEAQWBAoEAAuMDQoECgQbBwcHBwgIBAoECwQLBAsEFgQQBBYEEAQQBBUECwQAC4wNCQQLBBsGBwcJBAoECwQLBAsECwQVBBAEFQQQBBAEFgQKBAALjA0KBAsEGwQLBAoECwQLBAsECwQKBBYEEAQWBBAEEAQVBAsEAAuMDwgHBwcYBwgHBwcIBwcIBwcHCAcHEgcNBxMHDAgMCBIHBwgAC4gQBwcIBxgHBwcIBwcHCAcHCAcHEgcTBw0HEgcNBw0HEgcIBwANBQAAAAA=
+        entity_id: remote.broadlink_sala_remote
+  - type: custom:button-card
+    color_type: blank-card
+  - type: custom:button-card
+    color_type: label-card
+    icon: mdi:arrow-left
+    color: var(--state-icon-color)
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        command: >-
+          b64:JgByAA8IBQkFGgUKBQkFCgUJBQoFCQYJBRQFDwUVBQ8FDwUUBRQFAAuLDwgFCgUZBgkFCgUJBQoFCQUKBQkFFQUPBRQFDwUPBRQFFQUAC4sPBwUKBRoFCQYJBQkGCQUKBQkFFAYUBQ8FFAUPBQ8FFAUVBQANBQAAAAAAAA==
+        entity_id: remote.broadlink_sala_remote
+  - type: custom:button-card
+    color_type: label-card
+    icon: mdi:image-filter-center-focus-strong
+    color: var(--state-icon-color)
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        command: >-
+          b64:JgByAA8IBQoFGQUKBQkGCQUKBQkFCgUJBRUFDgYUBQ8FDwUaBQkFAAuLDwgFCgUZBgkFCQYJBQoFCQUKBQkFFQUOBRUFDwUPBRoFCQUAC4sPCAUKBRkFCgUJBgkFCgUJBQoFFAUUBQ8FFQUPBQ8FGQUKBQANBQAAAAAAAA==
+        entity_id: remote.broadlink_sala_remote
+  - type: custom:button-card
+    color_type: label-card
+    icon: mdi:arrow-right
+    color: var(--state-icon-color)
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        command: >-
+          b64:JgByAA8HBgkFGgUJBQoFCQYJBQkGCQUKBRQFDwUUBQ8FDwUVBRkFAAuMDggFCgUaBQkFCgUJBQoFCQUKBQkGFAUPBRQFDwUPBRQFGgUAC4sPCAUKBRkGCQUJBgkFCgUJBQoFFAUUBQ8FFQUPBQ8FFAUaBQANBQAAAAAAAA==
+        entity_id: remote.broadlink_sala_remote
+  - type: custom:button-card
+    color_type: blank-card
+  - type: custom:button-card
+    color_type: label-card
+    icon: mdi:arrow-down
+    color: var(--state-icon-color)
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        command: >-
+          b64:JgAeAw4IBgkFGgUJBQoFCQYJBQkGCQUKBRQFDwUUBQ8FDwUVBQ4FAAuMDggFCgUaBQkFCgUJBQoFCQYJBQkGFAUPBRQFDwUPBRQGDgUAC4wOCAUKBRoFCQUKBQkFCgUJBQoFCQYUBQ8FFAUPBQ8FFAYOBQALjA4IBQoFGgUJBQoFCQUKBQkFCgUJBhQFDwUUBQ8FDwUUBQ8FAAuLDwgFCgUaBQkFCgUJBQoFCQUKBQkFFQUPBRQFDwUPBRQFDwUAC4sPCAUKBRkGCQUKBQkFCgUJBQoFCQUVBQ8FFAUPBQ8FFAUPBQALiw8IBQoFGQYJBQoFCQUKBQkFCgUJBRUFDwUUBQ8FDwUUBQ8FAAuLDwgFCgUZBQoFCQYJBQoFCQUKBQkFFQUOBhQFDwUPBRQFDwUAC4sPCAUJBhkFCgUJBgkFCQYJBQoFCQUUBg4FFQUPBQ8FFAUPBQALiw8IBQkGGQUKBQkFCgUJBgkFCgUJBRQGDgUVBQ8FDwUUBQ8FAAuLDwgFCQUaBQoFCQUKBQkFCgUJBgkFFAUPBRUFDwUPBRQFDwUAC4sPCAUJBRoFCgUJBQoFCQUKBQkGCQUUBQ8FFQUPBQ8FFAUPBQALiw8IBQkFGgUKBQkFCgUJBQoFCQUKBRQFDwUVBQ8FDgYUBQ8FAAuLDwgFCQUaBQoFCQUKBQkFCgUJBQoFFAUPBRQGDgYOBhQFDwUAC4sPCAUJBRoFCgUJBQoFCQUKBQkFCgUUBQ8FFAYOBg4FFQUPBQALiw8IBQkFGgUJBgkFCgUJBQoFCQUKBRQFDwUUBg4FDwUVBQ8FAAuLDwcGCQUaBQkGCQUKBQkFCgUJBQoFFAUPBRQFDwUPBRUFDwUAC4sPBwYJBRoFCQYJBQkGCQUKBQkFCgUUBQ8FFAUPBQ8FFQUPBQALiw8HBQoFGgUJBQoFCQYJBQkGCQUKBRQFDwUUBQ8FDwUVBQ4GAAuLDggFCgUaBQkFCgUJBQoFCQYJBQoFFAUPBRQFDwUPBRQGDgYAC4sOCAUKBRoFCQUKBQkFCgUJBQoFFAUVBQ8FFAUPBQ8FFAUPBQANBQYJBQkGCQUKBRQ=
+        entity_id: remote.broadlink_sala_remote
